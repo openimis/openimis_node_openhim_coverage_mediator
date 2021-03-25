@@ -1,0 +1,1 @@
+# openimis_node_openhim_coverage_mediator
