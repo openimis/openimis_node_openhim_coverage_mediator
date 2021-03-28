@@ -1,0 +1,36 @@
+
+{
+    "urn": "urn:mediator:Coverage mediator",
+    "version": "1.0.0",
+    "name": "Coverage Mediator",
+    "description": "Coverage mediator",
+    "defaultChannelConfig": [
+      {
+        "name": "Coverage mediator",
+        "urlPattern": "^/coverage",
+        "routes": [
+          {
+            "name": "Coverage route",
+            "host": "localhost",
+            "path": "/",
+            "port": "3012",
+            "primary": true,
+            "type": "http"
+          }
+        ],
+        "allow": ["admin"],
+        "methods": ["GET", "POST","PUT","DELETE"],
+        "type": "http"
+      }
+    ],
+    "endpoints": [
+      {
+        "name": "Coverage endpoint",
+        "host": "localhost",
+        "path": "/",
+        "port": "3012",
+        "primary": true,
+        "type": "http"
+      }
+    ]
+  }
